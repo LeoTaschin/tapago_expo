@@ -1,5 +1,3 @@
-// colors.js
-
 export const colors = {
     // Cores principais
     verdePrimary: '#00B907',
@@ -21,13 +19,17 @@ export const colors = {
 
     // Modos de cor (light e dark)
     lightMode: {
-        background: backgroundLight,
-        text: preto,
-        subtext: cinzaEscuro,
+        background: '#FFFFFF', // backgroundLight
+        text: '#000000', // preto
+        subtext: '#616161', // cinzaEscuro
+        button: '#00B907', // verdePrimary
+        buttonText: '#FFFFFF', // branco
     },
     darkMode: {
-        background: backgroundDark,
-        text: branco,
-        subtext: cinzaClaro,
+        background: '#121212', // backgroundDark
+        text: '#FFFFFF', // branco
+        subtext: '#E0E0E0', // cinzaClaro
+        button: '#00B907', // verdePrimary
+        buttonText: '#FFFFFF', // branco
     },
 };
